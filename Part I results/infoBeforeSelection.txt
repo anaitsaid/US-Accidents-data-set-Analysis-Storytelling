@@ -1,0 +1,54 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2845342 entries, 0 to 2845341
+Data columns (total 47 columns):
+ #   Column                 Dtype  
+---  ------                 -----  
+ 0   ID                     object 
+ 1   Severity               int64  
+ 2   Start_Time             object 
+ 3   End_Time               object 
+ 4   Start_Lat              float64
+ 5   Start_Lng              float64
+ 6   End_Lat                float64
+ 7   End_Lng                float64
+ 8   Distance(mi)           float64
+ 9   Description            object 
+ 10  Number                 float64
+ 11  Street                 object 
+ 12  Side                   object 
+ 13  City                   object 
+ 14  County                 object 
+ 15  State                  object 
+ 16  Zipcode                object 
+ 17  Country                object 
+ 18  Timezone               object 
+ 19  Airport_Code           object 
+ 20  Weather_Timestamp      object 
+ 21  Temperature(F)         float64
+ 22  Wind_Chill(F)          float64
+ 23  Humidity(%)            float64
+ 24  Pressure(in)           float64
+ 25  Visibility(mi)         float64
+ 26  Wind_Direction         object 
+ 27  Wind_Speed(mph)        float64
+ 28  Precipitation(in)      float64
+ 29  Weather_Condition      object 
+ 30  Amenity                bool   
+ 31  Bump                   bool   
+ 32  Crossing               bool   
+ 33  Give_Way               bool   
+ 34  Junction               bool   
+ 35  No_Exit                bool   
+ 36  Railway                bool   
+ 37  Roundabout             bool   
+ 38  Station                bool   
+ 39  Stop                   bool   
+ 40  Traffic_Calming        bool   
+ 41  Traffic_Signal         bool   
+ 42  Turning_Loop           bool   
+ 43  Sunrise_Sunset         object 
+ 44  Civil_Twilight         object 
+ 45  Nautical_Twilight      object 
+ 46  Astronomical_Twilight  object 
+dtypes: bool(13), float64(13), int64(1), object(20)
+memory usage: 773.4+ MB
